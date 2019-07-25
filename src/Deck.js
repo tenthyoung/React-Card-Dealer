@@ -53,7 +53,9 @@ class Deck extends Component {
         return (
             <div className="Deck">
                 <button onClick={this.drawCard} >Click me!</button>
-
+                <br/>
+                <br/>
+                <br/>
                 {cards}
             </div>
         );
